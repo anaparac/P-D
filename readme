@@ -1,0 +1,37 @@
+Planned&Done
+
+Planned&Done je aplikacija kojom korisnik organizira vrijeme i raspoređuje zadatke. Aplikacija
+omogućuje bilježenje, brisanje i editiranje zadataka. Zadacima je omogućeno zadavanje planiranog
+vremena izvršavanja, krajnjeg vremenskog roka te atributa prioriteta i kategorije.
+Pri pokretanju aplikacije prikazuju se zadaci, koje je korisnik dodao, u dvije liste: lista planiranih
+i lista obavljenih zadataka. Za svaki zadatak prikazani su atributi prioriteta (obojeni uskličnik: siva –
+neodređen prioritet, zelena – najniži prioritet, žuta – srednji prioritet, crvena – najviši prioritet), datumi
+planiranog izvršavanja, te datum krajnjeg roka.
+Dužim klikom na zadatak te potvrdom u dijaloškom okviru omogućeno je brisanje zadatka.
+Pored prikazanog zadatka nalazi se ikona za uređivanje svojstava tog zadatka; uređivanje je onemogućeno
+za obavljene zadatke. Pored svakog zadataka nalazi se checkbox kojim označavamo da je zadatak
+obavljen. Klikom na njega zadatak se automatski premješta u odgovarajuću listu.
+Klikom na gumb koji se nalazi u donjem desnom rubu ekrana omogućeno je dodavanje novog
+zadatka. Prilikom dodavanja zadataka obavezno je unijeti ime, dok su ostali atributi opcionalni.
+Omogućeno je sortiranje i filtriranje zadataka. Sortiranje je omogućeno prema sljedećim
+kategorijama: datumu planiranog vremena izvršavanja, datumu krajnjeg roka te prema prioritetu, u
+uzlaznom ili silaznom poretku. Filtriranje je omogućeno prema sljedećim kriterijima: prioritetu, kategoriji
+te vremenu planiranja i krajnjem roku.
+U padajućem izborniku su sljedeće opcije: kalendar, pomodoro tehnika, notifikacije,
+istovremeno brisanje svih završenih zadataka, ažuriranje kategorija i izvoz u pdf.
+Na kalendaru su označeni datumi na koje korisnik planira izvršiti zadatke te su obojeni prema
+najvećem prioritetu zadatka u tom danu. Klikom na određeni datum prikazuju se svi zadaci planirani za
+taj dan.
+Opcija Pomodoro omogućuje korisniku praćenje izvršavanja zadatka pomoću Pomodoro tehnike,
+gumbima Pomodoro, kratka pauza i duga pauza te start, pauziranje trenutnog ciklusa te restartanje
+trenutnog ciklusa.
+Omogućeno je paljenje i gašenje obavijesti. Obavijesti stižu svaki dan u 9 ujutro obavještavajući
+korisnika ima li ili nema planiranih zadataka za sljedeći dan.
+Omogućeno je ažuriranje kategorija: dužim pritiskom na kategoriju nudi se mogućnost brisanja,
+također je moguće dodati novu kategoriju.
+Listu zadataka s početnog ekrana moguće je izvesti u PDF.
+
+Aplikacija je testirana na uređajima : Samsung galaxy J7, Nexus 5 i Nexus 9.
+Prilikom pokretanja aplikacije u android studiu, ukoliko dođe obavijest o suvišnim modulima, potrebno ih
+je ukloniti.
+Doprinosi članova vidljivi su iz commit-ova na bitbucket projektu, uz međusobno savjetovanje.
